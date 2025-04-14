@@ -1,0 +1,65 @@
+/* login_style.css */
+
+/* Style for the login container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #333;
+}
+
+.register-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

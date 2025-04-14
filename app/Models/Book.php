@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Book extends Model
 {
+<<<<<<< HEAD
+=======
+    //specify fillable columns
+>>>>>>> ec42c9ade7cfd52d1dbb88ad664b55f1d30b59e1
     protected $fillable = [
         'title',
         'author',
